@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081DAE5706FD4E3380B8E8B1A04B2A8A /* CSAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D65A11DB1EAA24AE4E82E6A434EC6B5 /* CSAudioDownLoader.m */; };
+		0AC02292CB57E52C23D7B591ECD868DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		13820B1B2B587467B67CA4061A0D6015 /* CSRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F990CF484EF5BE118A9CA3F991B521 /* CSRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C950363E50C4ABF250955393B0DB2B /* Pods-CSMediaPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F3916E3E672A3A60B9014CE33448EC /* Pods-CSMediaPlayer_Example-dummy.m */; };
+		16663261FC51E4C84D06B3D695B471D5 /* CSRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A18776CA1105729514D6588A4F22BC /* CSRemotePlayer.m */; };
+		174A59CB82E98E81DC82E682237770EE /* Pods-CSMediaPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D4B5DA18013EA6239FB29060EA5914 /* Pods-CSMediaPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18BCEFE200237567C130798525C273A0 /* CSRemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C8503002CCD45A5BE1B1617FE44201 /* CSRemoteAudioFile.m */; };
+		2C0815F9703A15B42F9A01C96DE25634 /* CSRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19968FA8507FA373F6AB22FA925C02 /* CSRemoteResourceLoaderDelegate.m */; };
+		38B4E2F8301FD3377356872A100AAE7A /* NSURL+CSMediaURL.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7AE13D5D1AFB39F27972A9D22CA2BA /* NSURL+CSMediaURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D908E2844F64415EEDFF1E643DEB8BE /* CSMediaPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C837CA2A30836567458D6C590B1A13F /* CSMediaPlayer-dummy.m */; };
+		54DEC71F0D03D7A634CCDEC45B802B30 /* CSAudioDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1310C89A2DA25885C72A8332A9FDF3DE /* CSAudioDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565E77A86DCE95DF0FF71E93A3111F62 /* NSURL+CSMediaURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD230AD3D7B28BDDB613143EEDE16A6 /* NSURL+CSMediaURL.m */; };
+		6BC62643A8B3DB2290BF2ADE5B620ABB /* Pods-CSMediaPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2049E82BACC19C376B45A4F611D9B68F /* Pods-CSMediaPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0F9F40E65C31822469A96739F1ADA2 /* CSRemoteAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F4114FECB26A579F96BB8284158AE076 /* CSRemoteAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4FDFFA7448A80C5746E801AF9A3D3B /* CSRemoteResourceLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E04C8728056638D4A340364890B8571 /* CSRemoteResourceLoaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A13CF1786C51EA3ED2C835A29F5EC7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B5EA80DF8497BC9A93BFB5C11CED664E /* CSMediaPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF93477901617AA9B6D2A63A0A528FFD /* CSMediaPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB06567B640CBDB4C022DF2550546FD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D21BD401CDFDD878C24D0CDC509D9F91 /* Pods-CSMediaPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8277EC6A6AED660CDB6AA4CB4CA37A3F /* Pods-CSMediaPlayer_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D29E99BC5E81BE218D3F3A11A5B1C001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BAA5F2A3A71A6570118391C5106683;
+			remoteInfo = "Pods-CSMediaPlayer_Example";
+		};
+		FEBF9D66284D1F56FEA4CDE94BD2A98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA0F9758ECD20EDAFAC9704AC144FF1;
+			remoteInfo = CSMediaPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF6C7AE4E7317542C3DD0C791CD113C /* CSMediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CSMediaPlayer.framework; path = CSMediaPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1310C89A2DA25885C72A8332A9FDF3DE /* CSAudioDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAudioDownLoader.h; path = CSMediaPlayer/Classes/CSAudioDownLoader.h; sourceTree = "<group>"; };
+		170D60AF92C9750A3359008B2E681337 /* Pods-CSMediaPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSMediaPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19D4B5DA18013EA6239FB29060EA5914 /* Pods-CSMediaPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSMediaPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2049E82BACC19C376B45A4F611D9B68F /* Pods-CSMediaPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSMediaPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		24A18776CA1105729514D6588A4F22BC /* CSRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSRemotePlayer.m; path = CSMediaPlayer/Classes/CSRemotePlayer.m; sourceTree = "<group>"; };
+		35A33F11ACA8E02F528551F20D3C6437 /* Pods-CSMediaPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSMediaPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36A88EC412737B3CF6AAF9B20962F8CD /* CSMediaPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSMediaPlayer-prefix.pch"; sourceTree = "<group>"; };
+		36F990CF484EF5BE118A9CA3F991B521 /* CSRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSRemotePlayer.h; path = CSMediaPlayer/Classes/CSRemotePlayer.h; sourceTree = "<group>"; };
+		3804A0F96B4E8D3836EE6A3E2297EC3D /* Pods-CSMediaPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSMediaPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C837CA2A30836567458D6C590B1A13F /* CSMediaPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSMediaPlayer-dummy.m"; sourceTree = "<group>"; };
+		3E04C8728056638D4A340364890B8571 /* CSRemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSRemoteResourceLoaderDelegate.h; path = CSMediaPlayer/Classes/CSRemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		4A109FE05DE6981B541BC5D9AFA62B99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5348F488D5CC154CCA82FA0643904A86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		706864A4D0A7EB212A84CF44329A34E4 /* Pods-CSMediaPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSMediaPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71F3916E3E672A3A60B9014CE33448EC /* Pods-CSMediaPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSMediaPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		7810F7A9D286C8B4FA9B55E340AAB9F5 /* Pods-CSMediaPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSMediaPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		82039CAD7A5F8E07C0AABDFA928D55FC /* CSMediaPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CSMediaPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8277EC6A6AED660CDB6AA4CB4CA37A3F /* Pods-CSMediaPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSMediaPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		8B19968FA8507FA373F6AB22FA925C02 /* CSRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSRemoteResourceLoaderDelegate.m; path = CSMediaPlayer/Classes/CSRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		8CAD898DC94C76FB58922D5C36AF48DE /* Pods_CSMediaPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CSMediaPlayer_Example.framework; path = "Pods-CSMediaPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D65A11DB1EAA24AE4E82E6A434EC6B5 /* CSAudioDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAudioDownLoader.m; path = CSMediaPlayer/Classes/CSAudioDownLoader.m; sourceTree = "<group>"; };
+		8FD230AD3D7B28BDDB613143EEDE16A6 /* NSURL+CSMediaURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+CSMediaURL.m"; sourceTree = "<group>"; };
+		9240515B7E9C25BD9254A61882309FD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C8503002CCD45A5BE1B1617FE44201 /* CSRemoteAudioFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSRemoteAudioFile.m; path = CSMediaPlayer/Classes/CSRemoteAudioFile.m; sourceTree = "<group>"; };
+		9EF9B354E958573EBA9E2EEAD6C5E0AE /* Pods-CSMediaPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSMediaPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A5BEB5E421C91DB5E9767499D3B02D2F /* Pods-CSMediaPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSMediaPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC552EB9E00E75D4F658CE5F6FEA12A8 /* Pods-CSMediaPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSMediaPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE06671BA6D76E0A66B26F97D1A23C80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF93477901617AA9B6D2A63A0A528FFD /* CSMediaPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSMediaPlayer-umbrella.h"; sourceTree = "<group>"; };
+		C84627DA8710998A2DB8BCCC8C260EB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF85FE9BCD749010A119EB9282924595 /* Pods-CSMediaPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSMediaPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFB81F4A7D06E1EEFCBF5DEA56136610 /* Pods-CSMediaPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSMediaPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		D0816E71319DC4C13C8248BAA69C2850 /* Pods-CSMediaPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSMediaPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D493C25BF46811A330694EC8AE411C76 /* Pods-CSMediaPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSMediaPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		DB7AE13D5D1AFB39F27972A9D22CA2BA /* NSURL+CSMediaURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+CSMediaURL.h"; sourceTree = "<group>"; };
+		DFCD4CB5A9B8B4FB0E6141A124FA70D4 /* CSMediaPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSMediaPlayer.modulemap; sourceTree = "<group>"; };
+		EE93731F8527FCDBBCABA1A09F5C4E1D /* Pods_CSMediaPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CSMediaPlayer_Tests.framework; path = "Pods-CSMediaPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0436CA7A5E5779812C217700CF5BA45 /* Pods-CSMediaPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSMediaPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0A53590F02E72FFAF542A4460923BBF /* CSMediaPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSMediaPlayer.xcconfig; sourceTree = "<group>"; };
+		F4114FECB26A579F96BB8284158AE076 /* CSRemoteAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSRemoteAudioFile.h; path = CSMediaPlayer/Classes/CSRemoteAudioFile.h; sourceTree = "<group>"; };
+		FF065DDA6230585B6806B24E0564EE3F /* Pods-CSMediaPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSMediaPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D128C3C8F2C81969358BDFBF7398ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB06567B640CBDB4C022DF2550546FD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DCBCAB09CA014612B99AD3EFB874A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC02292CB57E52C23D7B591ECD868DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC2A225676154CC74E6E8D6D0B3738D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13CF1786C51EA3ED2C835A29F5EC7FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47A46A6C6F15E1AA646E323F43977B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF6C7AE4E7317542C3DD0C791CD113C /* CSMediaPlayer.framework */,
+				8CAD898DC94C76FB58922D5C36AF48DE /* Pods_CSMediaPlayer_Example.framework */,
+				EE93731F8527FCDBBCABA1A09F5C4E1D /* Pods_CSMediaPlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		71483B0044D109B004084E7B18744331 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82039CAD7A5F8E07C0AABDFA928D55FC /* CSMediaPlayer.podspec */,
+				4A109FE05DE6981B541BC5D9AFA62B99 /* LICENSE */,
+				9240515B7E9C25BD9254A61882309FD1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FD621A5D01BE1E590453FF1BB1064D3F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				47A46A6C6F15E1AA646E323F43977B92 /* Products */,
+				D3F8CA313966B336E11FB0E4A0BB1EAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AC38A39FA9FABCCF3219008A60C1A9D8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DB7AE13D5D1AFB39F27972A9D22CA2BA /* NSURL+CSMediaURL.h */,
+				8FD230AD3D7B28BDDB613143EEDE16A6 /* NSURL+CSMediaURL.m */,
+			);
+			name = Category;
+			path = CSMediaPlayer/Classes/Category;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3F2D258885D9A19D289214D096B8B64 /* Pods-CSMediaPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C84627DA8710998A2DB8BCCC8C260EB0 /* Info.plist */,
+				D493C25BF46811A330694EC8AE411C76 /* Pods-CSMediaPlayer_Tests.modulemap */,
+				170D60AF92C9750A3359008B2E681337 /* Pods-CSMediaPlayer_Tests-acknowledgements.markdown */,
+				3804A0F96B4E8D3836EE6A3E2297EC3D /* Pods-CSMediaPlayer_Tests-acknowledgements.plist */,
+				8277EC6A6AED660CDB6AA4CB4CA37A3F /* Pods-CSMediaPlayer_Tests-dummy.m */,
+				9EF9B354E958573EBA9E2EEAD6C5E0AE /* Pods-CSMediaPlayer_Tests-frameworks.sh */,
+				7810F7A9D286C8B4FA9B55E340AAB9F5 /* Pods-CSMediaPlayer_Tests-resources.sh */,
+				19D4B5DA18013EA6239FB29060EA5914 /* Pods-CSMediaPlayer_Tests-umbrella.h */,
+				35A33F11ACA8E02F528551F20D3C6437 /* Pods-CSMediaPlayer_Tests.debug.xcconfig */,
+				706864A4D0A7EB212A84CF44329A34E4 /* Pods-CSMediaPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-CSMediaPlayer_Tests";
+			path = "Target Support Files/Pods-CSMediaPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		C779E739FD772A8C03C67E954E4529F0 /* CSMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1310C89A2DA25885C72A8332A9FDF3DE /* CSAudioDownLoader.h */,
+				8D65A11DB1EAA24AE4E82E6A434EC6B5 /* CSAudioDownLoader.m */,
+				F4114FECB26A579F96BB8284158AE076 /* CSRemoteAudioFile.h */,
+				93C8503002CCD45A5BE1B1617FE44201 /* CSRemoteAudioFile.m */,
+				36F990CF484EF5BE118A9CA3F991B521 /* CSRemotePlayer.h */,
+				24A18776CA1105729514D6588A4F22BC /* CSRemotePlayer.m */,
+				3E04C8728056638D4A340364890B8571 /* CSRemoteResourceLoaderDelegate.h */,
+				8B19968FA8507FA373F6AB22FA925C02 /* CSRemoteResourceLoaderDelegate.m */,
+				AC38A39FA9FABCCF3219008A60C1A9D8 /* Category */,
+				71483B0044D109B004084E7B18744331 /* Pod */,
+				D8A5C2D95F43908806C4336F50976563 /* Support Files */,
+			);
+			name = CSMediaPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D3F8CA313966B336E11FB0E4A0BB1EAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30A4B792118D2A32006399D776C73DD /* Pods-CSMediaPlayer_Example */,
+				C3F2D258885D9A19D289214D096B8B64 /* Pods-CSMediaPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D8A5C2D95F43908806C4336F50976563 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD4CB5A9B8B4FB0E6141A124FA70D4 /* CSMediaPlayer.modulemap */,
+				F0A53590F02E72FFAF542A4460923BBF /* CSMediaPlayer.xcconfig */,
+				3C837CA2A30836567458D6C590B1A13F /* CSMediaPlayer-dummy.m */,
+				36A88EC412737B3CF6AAF9B20962F8CD /* CSMediaPlayer-prefix.pch */,
+				BF93477901617AA9B6D2A63A0A528FFD /* CSMediaPlayer-umbrella.h */,
+				BE06671BA6D76E0A66B26F97D1A23C80 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CSMediaPlayer";
+			sourceTree = "<group>";
+		};
+		F30A4B792118D2A32006399D776C73DD /* Pods-CSMediaPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5348F488D5CC154CCA82FA0643904A86 /* Info.plist */,
+				CFB81F4A7D06E1EEFCBF5DEA56136610 /* Pods-CSMediaPlayer_Example.modulemap */,
+				D0816E71319DC4C13C8248BAA69C2850 /* Pods-CSMediaPlayer_Example-acknowledgements.markdown */,
+				AC552EB9E00E75D4F658CE5F6FEA12A8 /* Pods-CSMediaPlayer_Example-acknowledgements.plist */,
+				71F3916E3E672A3A60B9014CE33448EC /* Pods-CSMediaPlayer_Example-dummy.m */,
+				F0436CA7A5E5779812C217700CF5BA45 /* Pods-CSMediaPlayer_Example-frameworks.sh */,
+				FF065DDA6230585B6806B24E0564EE3F /* Pods-CSMediaPlayer_Example-resources.sh */,
+				2049E82BACC19C376B45A4F611D9B68F /* Pods-CSMediaPlayer_Example-umbrella.h */,
+				A5BEB5E421C91DB5E9767499D3B02D2F /* Pods-CSMediaPlayer_Example.debug.xcconfig */,
+				CF85FE9BCD749010A119EB9282924595 /* Pods-CSMediaPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-CSMediaPlayer_Example";
+			path = "Target Support Files/Pods-CSMediaPlayer_Example";
+			sourceTree = "<group>";
+		};
+		FD621A5D01BE1E590453FF1BB1064D3F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C779E739FD772A8C03C67E954E4529F0 /* CSMediaPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02FDD055DEF342DEE0B4DB31643B2ED5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DEC71F0D03D7A634CCDEC45B802B30 /* CSAudioDownLoader.h in Headers */,
+				B5EA80DF8497BC9A93BFB5C11CED664E /* CSMediaPlayer-umbrella.h in Headers */,
+				8C0F9F40E65C31822469A96739F1ADA2 /* CSRemoteAudioFile.h in Headers */,
+				13820B1B2B587467B67CA4061A0D6015 /* CSRemotePlayer.h in Headers */,
+				9B4FDFFA7448A80C5746E801AF9A3D3B /* CSRemoteResourceLoaderDelegate.h in Headers */,
+				38B4E2F8301FD3377356872A100AAE7A /* NSURL+CSMediaURL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A64ECBC25181A330791EF6E8B6DD7F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC62643A8B3DB2290BF2ADE5B620ABB /* Pods-CSMediaPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9829E023334502CF8FAF36D45F5B4811 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A59CB82E98E81DC82E682237770EE /* Pods-CSMediaPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03B2FA433CA743DB73DEE858A213A2A4 /* Pods-CSMediaPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E009A822226FE9CA74EA9D2A158FE4 /* Build configuration list for PBXNativeTarget "Pods-CSMediaPlayer_Tests" */;
+			buildPhases = (
+				BFB7DF1A5F2FC87C902B00E669BBE55C /* Sources */,
+				6D128C3C8F2C81969358BDFBF7398ACD /* Frameworks */,
+				9829E023334502CF8FAF36D45F5B4811 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE4D24837EFE0A0DC6BBCED67CA7B2B /* PBXTargetDependency */,
+			);
+			name = "Pods-CSMediaPlayer_Tests";
+			productName = "Pods-CSMediaPlayer_Tests";
+			productReference = EE93731F8527FCDBBCABA1A09F5C4E1D /* Pods_CSMediaPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CA0F9758ECD20EDAFAC9704AC144FF1 /* CSMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD317B7EB74851E9B4791C8046736441 /* Build configuration list for PBXNativeTarget "CSMediaPlayer" */;
+			buildPhases = (
+				FCBB3FFBB178092739C93354BCA084CC /* Sources */,
+				ABC2A225676154CC74E6E8D6D0B3738D /* Frameworks */,
+				02FDD055DEF342DEE0B4DB31643B2ED5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSMediaPlayer;
+			productName = CSMediaPlayer;
+			productReference = 0FF6C7AE4E7317542C3DD0C791CD113C /* CSMediaPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37BAA5F2A3A71A6570118391C5106683 /* Pods-CSMediaPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5E1C5BB6287C1F387CE8C45B941C08 /* Build configuration list for PBXNativeTarget "Pods-CSMediaPlayer_Example" */;
+			buildPhases = (
+				71C3DB08976BFDD4C382483AD06C83EF /* Sources */,
+				72DCBCAB09CA014612B99AD3EFB874A8 /* Frameworks */,
+				6A64ECBC25181A330791EF6E8B6DD7F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A70CF0AC74365DBB70DF8E4A2CED93 /* PBXTargetDependency */,
+			);
+			name = "Pods-CSMediaPlayer_Example";
+			productName = "Pods-CSMediaPlayer_Example";
+			productReference = 8CAD898DC94C76FB58922D5C36AF48DE /* Pods_CSMediaPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 47A46A6C6F15E1AA646E323F43977B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CA0F9758ECD20EDAFAC9704AC144FF1 /* CSMediaPlayer */,
+				37BAA5F2A3A71A6570118391C5106683 /* Pods-CSMediaPlayer_Example */,
+				03B2FA433CA743DB73DEE858A213A2A4 /* Pods-CSMediaPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C3DB08976BFDD4C382483AD06C83EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C950363E50C4ABF250955393B0DB2B /* Pods-CSMediaPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB7DF1A5F2FC87C902B00E669BBE55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21BD401CDFDD878C24D0CDC509D9F91 /* Pods-CSMediaPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBB3FFBB178092739C93354BCA084CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081DAE5706FD4E3380B8E8B1A04B2A8A /* CSAudioDownLoader.m in Sources */,
+				3D908E2844F64415EEDFF1E643DEB8BE /* CSMediaPlayer-dummy.m in Sources */,
+				18BCEFE200237567C130798525C273A0 /* CSRemoteAudioFile.m in Sources */,
+				16663261FC51E4C84D06B3D695B471D5 /* CSRemotePlayer.m in Sources */,
+				2C0815F9703A15B42F9A01C96DE25634 /* CSRemoteResourceLoaderDelegate.m in Sources */,
+				565E77A86DCE95DF0FF71E93A3111F62 /* NSURL+CSMediaURL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBE4D24837EFE0A0DC6BBCED67CA7B2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CSMediaPlayer_Example";
+			target = 37BAA5F2A3A71A6570118391C5106683 /* Pods-CSMediaPlayer_Example */;
+			targetProxy = D29E99BC5E81BE218D3F3A11A5B1C001 /* PBXContainerItemProxy */;
+		};
+		F6A70CF0AC74365DBB70DF8E4A2CED93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSMediaPlayer;
+			target = 2CA0F9758ECD20EDAFAC9704AC144FF1 /* CSMediaPlayer */;
+			targetProxy = FEBF9D66284D1F56FEA4CDE94BD2A98C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		334086155DEA1EABF4C36C5D7897CA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BEB5E421C91DB5E9767499D3B02D2F /* Pods-CSMediaPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSMediaPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSMediaPlayer_Example/Pods-CSMediaPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D488FB8F3099C4015172BFA8D238A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF85FE9BCD749010A119EB9282924595 /* Pods-CSMediaPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSMediaPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSMediaPlayer_Example/Pods-CSMediaPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		898D6A90F1D4E75D5A87224153F91C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A53590F02E72FFAF542A4460923BBF /* CSMediaPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSMediaPlayer/CSMediaPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSMediaPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSMediaPlayer/CSMediaPlayer.modulemap";
+				PRODUCT_MODULE_NAME = CSMediaPlayer;
+				PRODUCT_NAME = CSMediaPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9962E7F1D1E21026168B99510EBE9341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A53590F02E72FFAF542A4460923BBF /* CSMediaPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSMediaPlayer/CSMediaPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSMediaPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSMediaPlayer/CSMediaPlayer.modulemap";
+				PRODUCT_MODULE_NAME = CSMediaPlayer;
+				PRODUCT_NAME = CSMediaPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B5C1F2B2D347D0514E3993C0544C144D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706864A4D0A7EB212A84CF44329A34E4 /* Pods-CSMediaPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSMediaPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSMediaPlayer_Tests/Pods-CSMediaPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCD9F05CD43B5BB2E4EA1AE4A724641B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A33F11ACA8E02F528551F20D3C6437 /* Pods-CSMediaPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSMediaPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSMediaPlayer_Tests/Pods-CSMediaPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E009A822226FE9CA74EA9D2A158FE4 /* Build configuration list for PBXNativeTarget "Pods-CSMediaPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD9F05CD43B5BB2E4EA1AE4A724641B /* Debug */,
+				B5C1F2B2D347D0514E3993C0544C144D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5E1C5BB6287C1F387CE8C45B941C08 /* Build configuration list for PBXNativeTarget "Pods-CSMediaPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334086155DEA1EABF4C36C5D7897CA9A /* Debug */,
+				5D488FB8F3099C4015172BFA8D238A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD317B7EB74851E9B4791C8046736441 /* Build configuration list for PBXNativeTarget "CSMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898D6A90F1D4E75D5A87224153F91C0D /* Debug */,
+				9962E7F1D1E21026168B99510EBE9341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CSMediaPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of CSMediaPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CoderSahara/CSMediaPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoderSahara": "sahara@gitlab.com"
+  },
+  "source": {
+    "git": "https://github.com/CoderSahara/CSMediaPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSMediaPlayer/Classes/**/*"
+}

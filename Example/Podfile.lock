@@ -1,0 +1,16 @@
+PODS:
+  - CSMediaPlayer (0.1.0)
+
+DEPENDENCIES:
+  - CSMediaPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  CSMediaPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSMediaPlayer: 59b6d99221c92a0cf7d4459b99e6ca81502221c5
+
+PODFILE CHECKSUM: d7003b8a3ad508a17ab1c0695ede11514f181239
+
+COCOAPODS: 1.5.3
