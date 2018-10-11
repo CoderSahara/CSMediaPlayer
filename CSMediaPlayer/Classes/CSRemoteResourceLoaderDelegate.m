@@ -94,6 +94,7 @@
 }
 
 - (void)handleAllLoadingRequest {
+
     //    NSLog(@"在这里不断的处理请求");
     NSLog(@"-----%@", self.loadingRequests);
     NSMutableArray *deleteRequests = [NSMutableArray array];
@@ -139,6 +140,38 @@
     
     [self.loadingRequests removeObjectsInArray:deleteRequests];
     
+    /*
+    AVAssetResourceLoadingRequest *loadingRequest = self.loadingRequests.firstObject;
+    // 直接拿本地的临时缓存数据, 给请求, 让请求, 帮我们返回给服务器
+    NSURL *url = loadingRequest.request.URL;
+    // 1. 填充信息头
+    loadingRequest.contentInformationRequest.contentType = self.downLoader.mimeType;
+    loadingRequest.contentInformationRequest.contentLength = self.downLoader.totalSize;
+    loadingRequest.contentInformationRequest.byteRangeAccessSupported = YES;
+    
+    // 2. 返回数据
+    // 2.1 计算请求的数据区间
+    long long requestOffSet = loadingRequest.dataRequest.currentOffset;
+    long long requestLength = loadingRequest.dataRequest.requestedLength;
+    
+    // 2.2 根据请求的区间, 看下,本地的临时缓存,能够返回多少
+    long long responseOffset = requestOffSet - self.downLoader.offset;
+    long long responseLength = MIN(requestLength, self.downLoader.offset + self.downLoader.loadedSize - requestOffSet);
+    
+    NSData *data = [NSData dataWithContentsOfFile:[CSRemoteAudioFile tmpFilePath:url] options:NSDataReadingMappedIfSafe error:nil];
+    if (data.length == 0) {
+        data = [NSData dataWithContentsOfFile:[CSRemoteAudioFile cacheFilePath:url] options:NSDataReadingMappedIfSafe error:nil];
+    }
+    NSData *subData = [data subdataWithRange:NSMakeRange(responseOffset, responseLength)];
+    if (loadingRequest.dataRequest) {
+        [loadingRequest.dataRequest respondWithData:subData];
+        // 3. 完成请求(byteRange) (必须, 是这个请求的数据, 全部都给完了, 完成)
+        if (requestLength == responseLength) {
+            [loadingRequest finishLoading];
+            [self.loadingRequests removeObject:loadingRequest];
+        }
+    }
+    */
 }
 
 
