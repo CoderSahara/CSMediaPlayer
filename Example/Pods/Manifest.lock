@@ -1,5 +1,5 @@
 PODS:
-  - CSMediaPlayer (0.1.0)
+  - CSMediaPlayer (0.1.1)
 
 DEPENDENCIES:
   - CSMediaPlayer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSMediaPlayer: 59b6d99221c92a0cf7d4459b99e6ca81502221c5
+  CSMediaPlayer: b4005ebff7e3f53eb066ed5707564345f263142d
 
 PODFILE CHECKSUM: d7003b8a3ad508a17ab1c0695ede11514f181239
 
