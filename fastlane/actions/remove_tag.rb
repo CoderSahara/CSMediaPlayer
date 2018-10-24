@@ -16,7 +16,7 @@ module Fastlane
       # 删除本地标签
       # git tag -d 标签名称
       if isRemoveLocalTag
-        cmds << "git tag -d #{tagName}"
+        cmds << "git tag -d '#{tagName}'"
       end
       
       # 删除远程标签
