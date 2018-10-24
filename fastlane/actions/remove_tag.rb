@@ -22,7 +22,7 @@ module Fastlane
       # 删除远程标签
       # git push origin :标签名称
       if isRemoveRemoteTag
-        cmds << "git push origin :@{tagName}"
+        cmds << "git push origin :'@{tagName}'"
       end
 
       # 3. 执行数组里面的所有命令
